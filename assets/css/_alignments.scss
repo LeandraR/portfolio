@@ -11,6 +11,7 @@
 .flex-column {
     display: flex;
     flex-direction: column;
+    align-content:center;
 }
 
 
@@ -42,4 +43,12 @@ ul, .links {
 .center {
     display:flex;
     align-self:center;
+}
+
+.flex-wrap {
+    flex-wrap:wrap;
+}
+
+.space-around {
+    justify-content:space-around;
 }
