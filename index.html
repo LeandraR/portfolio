@@ -5,34 +5,47 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-      <header>
-        <nav>
+      <header id="about">
+        <nav class="flex-row wrapper">
             <ul>
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>Toolkit</li>
-                <li>Let's Chat</li>
+                <a href="#about"><li>About</li></a>
+                <a href="#portfolio"><li>Portfolio</li></a>
+                <a href="#toolkit"><li>Toolkit</li></a>
+                <a href="#chat"><li>Let's Chat</li></a>
             </ul>
-            <a href="https://www.linkedin.com/in/leandra-reid/" target="_blank">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/LeandraR" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/leandra-reid/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/LeandraR" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
             <!-- <i class="fab fa-twitter"></i> -->
         </nav>
-            <h1>Hi, I'm Leandra, a Web Developer in Toronto.</h1>
-            <h2>I make websites using modern languages, and am passionate about good design, UX, and accessibility.</h2>
-            <img src="./assets/images/headshot2017.jpg" alt="Leandra headshot">
+        <div class="flex-row wrapper">
+            <div class="flex-column hero-text">
+                <h1>Hi, I'm Leandra </br>a Web Developer in Toronto.</h1>
+                <h2 class="hero-h2">I make websites using modern languages, and am passionate about good design, UX, and accessibility.</h2>
+            </div>
+            <img class="headshot" src="./assets/images/headshot2017.jpg" alt="Leandra headshot">
+        </div>
       </header>
 
-      <main>
-            <h2>My Portfolio</h2>
+      <div class="wrapper scroll">
+        <p>See more</p><br>
+        <i class="fas fa-angle-down"></i>
+      </div>
+
+
+      <main id="portfolio" class="flex-column wrapper">
+            <h2 class="center title-h2">My Portfolio</h2>
               <figure>
                     <img src="http://www.placepuppy.net/400/250" alt="">
                   <figcaption>Perfect Pair - Wine pairing App</figcaption>
@@ -47,8 +60,8 @@
             </figure>
       </main>
 
-      <section>
-        <h2>My Toolkit</h2>
+      <section id="toolkit" class="wrapper">
+        <h2 class="title-h2">My Toolkit</h2>
         <h3>Constantly evolving, my current skillset and other tools I am learning</h3>
         <figure>
             <i class="fab fa-html5"></i>
@@ -83,10 +96,11 @@
             <figcaption>Responsive Design</figcaption>
         </figure>
       </section>
-      <section>
+
+      <section id="chat" class="wrapper">
           <h2>Let's get in touch!</h2>
       </section>
-      <footer>
+      <footer class="wrapper">
 
       </footer>
 
