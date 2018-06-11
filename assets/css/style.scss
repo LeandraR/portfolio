@@ -4,6 +4,8 @@
 @import "about";
 @import "portfolio";
 @import "toolkit";
+@import "mediaQ";
+
 
 body {
     font-family: 'Cabin',sans-serif;
@@ -11,6 +13,7 @@ body {
 header {
     height:70vh;
  }
+
  .yellow {
      background-color:#f7e391;
  }
@@ -66,7 +69,7 @@ footer p {
 }
 
 .chat {
-    height:30vh;
+    // height:30vh;
 }
 
 .contact-method {
@@ -78,3 +81,6 @@ footer p {
     text-decoration-color: #f7e391;
 }
 
+img {
+    max-width:100%;
+}

@@ -33,7 +33,7 @@ ul, .links {
 
 .links {
     display:flex;
-    justify-self: flex-end;
+    justify-items: flex-end;
 }
 .container {
     max-width:980px;
@@ -51,4 +51,8 @@ ul, .links {
 
 .space-around {
     justify-content:space-around;
+}
+.flex-row-reverse {
+    display:flex;
+    flex-direction:row-reverse;
 }
