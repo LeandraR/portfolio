@@ -306,7 +306,6 @@ a {
   text-decoration: none; }
 
 nav a:hover {
-  text-decoration: underline;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -372,16 +371,16 @@ a img {
 .fig-cap-right {
   margin-left: -15px; }
 
-.right-p {
-  font-size: 1em;
-  margin-left: 15px;
-  letter-spacing: 1px; }
-
 .technologies {
   color: grey; }
 
 .text-align-right {
   text-align: right; }
+
+.right-p {
+  font-size: 1em;
+  margin-left: 15px;
+  letter-spacing: 1px; }
 
 .left-p {
   font-size: 1em;
@@ -505,7 +504,7 @@ body {
   font-family: 'Cabin',sans-serif; }
 
 header {
-  height: 70vh; }
+  min-height: 70vh; }
 
 .yellow {
   background-color: #f7e391; }

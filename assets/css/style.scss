@@ -11,7 +11,7 @@ body {
     font-family: 'Cabin',sans-serif;
 }
 header {
-    height:70vh;
+    min-height:70vh;
  }
 
  .yellow {
@@ -68,9 +68,6 @@ footer p {
     font-size:20px;
 }
 
-.chat {
-    // height:30vh;
-}
 
 .contact-method {
     padding:10px 0;
