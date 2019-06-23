@@ -3,7 +3,7 @@
         flex-direction:column;
     }
     .height {
-        height:110vh;
+        min-height:110vh;
     }
 
     .hero-text {
@@ -65,7 +65,7 @@
         padding:1em;
     }
     a img {
-        border:none;
+        border:8px solid #e8e8e8;
     }
     .wrapper {
         max-width:99%;

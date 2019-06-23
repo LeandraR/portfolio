@@ -319,7 +319,6 @@ ul, .links {
 
 a {
   color: black;
-  font-color: black;
   text-decoration: none;
 }
 
@@ -394,7 +393,7 @@ a img {
 }
 
 .fig-cap-right {
-  margin-left: -15px;
+  margin-left: 5px;
 }
 
 .technologies {
@@ -418,7 +417,7 @@ a img {
 }
 
 .fig-cap-left {
-  margin-right: -15px;
+  margin-right: 0px;
   z-index: 5;
 }
 
@@ -467,7 +466,7 @@ figure i {
   }
 
   .height {
-    height: 110vh;
+    min-height: 110vh;
   }
 
   .hero-text {
@@ -538,7 +537,7 @@ figure i {
   }
 
   a img {
-    border: none;
+    border: 8px solid #e8e8e8;
   }
 
   .wrapper {
